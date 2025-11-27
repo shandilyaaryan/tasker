@@ -49,3 +49,28 @@ path.join(process.cwd(), "generated/prisma/libquery_engine-debian-openssl-3.0.x.
  * 
  */
 export type User = Prisma.UserModel
+/**
+ * Model Task
+ * 
+ */
+export type Task = Prisma.TaskModel
+/**
+ * Model Account
+ * 
+ */
+export type Account = Prisma.AccountModel
+/**
+ * Model Session
+ * 
+ */
+export type Session = Prisma.SessionModel
+/**
+ * Model VerificationToken
+ * 
+ */
+export type VerificationToken = Prisma.VerificationTokenModel
+/**
+ * Model Authenticator
+ * 
+ */
+export type Authenticator = Prisma.AuthenticatorModel
