@@ -12,7 +12,7 @@ export const addTastSchema = z.object({
 export const AddTask = () => {
   const form = useForm<z.infer<typeof addTastSchema>>();
   return (
-    <Form control={form.control}>
+    <Form {...form}>
       <form onSubmit={form.handleSubmit((data) => console.log(data))}>
         <FormField control={form.control} name="title" render={({ field }) => (
             <FormItem>
